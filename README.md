@@ -16,6 +16,10 @@ Testes HTTP: <a href="https://insomnia.rest/">Insomnia</a>
 
 Como estou usando Mysql como banco de dados, caso queira rodar o projeto, será necessário instalá-lo em seu computador.
 
+Estou usando o tailwind como teste, logo, não tenho configuração própria.
+Baixe o arquivo css do tailwind com ```` npx tailwindcss build styles.css -o output.css ````, basta trocar o caminho para as pastas correspondentes
+dentro do projeto.
+
 Entre na pasta **Node API REST** e digite ```` npm install ````, isso irá baixar todas as dependências necessárias para rodar o servidor.
 Após isso, digite ```` yarn dev / npm run dev ```` para iniciar o servidor na porta 3333.
 Depois basta abrir o arquivo index.html ou usar um live server, como o do VS Code.
