@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/css/output.css">
+    <link rel="stylesheet" href="src/css/attendance.css">
+    <title>Cadastrar Atendimento</title>
+</head>
+<body class="h-screen bg-gray-100">
+    
+    <main class="cadastro bg-gray-100">
+        <section class="form bg-orange-100">
+            <form action="index.html">
+
+                <div class="inputs">
+                    <div class="inputs-right">
+                        <!-- <label for="cliente">Digite o nome do cliente</label> -->
+                        <input class="placeholder-gray-700" type="text" name="cliente" id="cliente" placeholder="Digite o nome do cliente" required>
+
+                        <!-- <label for="pet">Digite o tipo de pet</label> -->
+                        <input class="placeholder-gray-700" type="text" name="pet" id="pet" placeholder="Digite o pet">
+
+                        <!-- <label for="servico">Digite o serviço prestado</label> -->
+                        <input class="placeholder-gray-700" type="text" name="servico" id="servico" placeholder="Digite o serviço prestado" required>
+                    </div>
+
+                    <div class="inputs-left">
+                        <!-- <label for="status">Digite a situação do atendimento</label> -->
+                        <input class="placeholder-gray-700" type="text" name="status" id="status" placeholder="Digite o status do atendimento" required>
+
+                        <!-- <label for="observacoes">Observações sobre o serviço</label> -->
+                        <input class="placeholder-gray-700" type="text" name="observacoes" id="observacoes" placeholder="Observações">
+
+                        <!-- <label for="dataEntrega">Data de entrega do serviço</label> -->
+                        <input class="" type="datetime-local" id="dataEntrega" required>
+                    </div>
+                </div>
+
+                <div class="input_btn bg-gray-800">
+                    <input class="submit text-orange-100" type="submit" value="Cadastrar atendimento">
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <script type="module" src="src/app/controllers/PostController.js"></script>
+</body>
+</html>
